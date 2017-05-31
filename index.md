@@ -9,10 +9,10 @@ My interests:
 - Books, Films and Series
 - Sports and Fitness
 
-```markdown
+```python
 import datetime
 
 created = datetime.date(2017, 5, 31)
-print(created.strftime('%d.%m.%Y'))
+print('This blog was created on {0}'.format(created.strftime('%d.%m.%Y')))
 ```
-<h>31.05.2017</h>
+<h>This blog was created on 31.05.2017</h>
