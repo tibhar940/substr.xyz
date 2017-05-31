@@ -2,11 +2,17 @@
 
 Hello everyone!
 
-### Markdown
+### About
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+My interests:
+- Data Science and Data Visualization
+- Books, Films and Series
+- Sports and Fitness
 
 ```markdown
-import pandas as pd
-import numpy as np
+import datetime
+
+created = datetime.date(2017, 5, 31)
+print(created.strftime('%d.%m.%Y'))
 ```
+<h>31.05.2017</h>
